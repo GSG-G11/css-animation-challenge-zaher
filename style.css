@@ -18,7 +18,7 @@
 	height: 100%;
 	min-width: calc(100vw / 7);
 	animation: drop 1s calc(var(--i) * 0.2s);
-
+	overflow: hidden;
 	transition: min-width 0.5s ease-in-out;
 }
 
@@ -41,11 +41,20 @@
 	color: white;
 	font-size: 1.5rem;
 	opacity: 0;
-	transition: opacity 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
 .container .slid:hover .title {
 	opacity: 1;
+	font-size: 2rem;
+}
+
+.container .slid img {
+	transition: all 0.4s ease-in-out;
+}
+
+.container .slid:hover img {
+	transform: rotate(2deg) scale(1.1);
 }
 
 .container .slid:hover {
