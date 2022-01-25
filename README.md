@@ -9,7 +9,4 @@ html is ready, good luck :)
 
 https://www.youtube.com/watch?v=EoY6P9waUqE
 
-or 
-
-
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EoY6P9waUqE/0.jpg)](https://www.youtube.com/watch?v=EoY6P9waUqE)
